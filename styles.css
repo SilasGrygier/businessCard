@@ -1,0 +1,30 @@
+body {
+  margin: 10px;
+  color: #323a25;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.card-wrapper {
+  display: flex;
+  margin: 20px 10px;
+  border-bottom: 10px solid #87986a;
+  width: 400px;
+  padding: 20px;
+  justify-content: space-between;
+  background-color: #cfe1b9;
+}
+
+.profile-image {
+  width: 150px;
+  border: 3px ridge #97a97c;
+  border-radius: 10%;
+}
+
+a {
+  text-decoration: none;
+  color: #323a25;
+  font-weight: bold;
+}
+
+.card-text > * {
+  margin-bottom: 20px;
+}
